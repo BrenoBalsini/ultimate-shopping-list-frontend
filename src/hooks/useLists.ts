@@ -64,5 +64,6 @@ export const useLists = () => {
     updateList,
     deleteList,
     refreshLists: fetchLists,
+        fetchLists,
   };
 };
