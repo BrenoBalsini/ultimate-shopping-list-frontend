@@ -1,6 +1,5 @@
 export interface List {
-  id: string;
-  user_id: string;
+  _id: string;  user_id: string;
   name: string;
   description?: string;
   category?: string;
