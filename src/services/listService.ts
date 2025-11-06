@@ -1,5 +1,5 @@
 import api from './api';
-import { List } from '../types/list';
+import type { List } from '../types/list';
 
 export const listService = {
   async getAllLists(): Promise<List[]> {
