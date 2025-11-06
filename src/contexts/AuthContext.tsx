@@ -33,7 +33,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const login = async (email: string, password: string) => {
     const userData = await authService.login(email, password);
-    setUser(userData);
+    setUser(userData.user);
   };
 
   const logout = async () => {
