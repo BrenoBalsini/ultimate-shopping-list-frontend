@@ -1,5 +1,5 @@
 import api from './api';
-import { Item } from '../types/item';
+import type { Item } from '../types/item';
 
 export const itemService = {
   async getItemsByListId(listId: string): Promise<Item[]> {
