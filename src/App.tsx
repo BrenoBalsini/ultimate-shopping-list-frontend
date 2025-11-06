@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import Login from './pages/Login';
+import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import ListDetail from './pages/ListDetail';
 import Pantry from './pages/Pantry';
@@ -27,6 +28,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/login" element={<Login />} />
+                          <Route path="/register" element={<Register />} />
             <Route path="/" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
             <Route path="/lists/:id" element={<PrivateRoute><ListDetail /></PrivateRoute>} />
             <Route path="/pantry" element={<PrivateRoute><Pantry /></PrivateRoute>} />
