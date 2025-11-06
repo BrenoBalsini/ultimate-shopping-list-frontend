@@ -1,0 +1,37 @@
+{
+  "auth": {
+    "login": "Entrar",
+    "logout": "Sair",
+    "email": "E-mail",
+    "password": "Senha",
+    "loginWithGoogle": "Entrar com Google",
+    "dontHaveAccount": "Não tem uma conta?",
+    "register": "Cadastrar"
+  },
+  "lists": {
+    "myLists": "Minhas Listas",
+    "createList": "Criar Lista",
+    "editList": "Editar Lista",
+    "deleteList": "Excluir Lista",
+    "shareLis": "Compartilhar Lista",
+    "listName": "Nome da Lista",
+    "listCategory": "Categoria"
+  },
+  "items": {
+    "addItem": "Adicionar Item",
+    "itemName": "Nome do Item",
+    "quantity": "Quantidade",
+    "price": "Preço",
+    "category": "Categoria",
+    "scanBarcode": "Escanear Código de Barras",
+    "voiceInput": "Comando de Voz"
+  },
+  "common": {
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "search": "Pesquisar",
+    "loading": "Carregando..."
+  }
+}
