@@ -59,9 +59,9 @@ const Dashboard: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {lists.map((list) => (
               <div
-                key={list.id}
+                key={list._id}
                 className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow cursor-pointer"
-                onClick={() => handleViewList(list.id)}
+                onClick={() => handleViewList(list._id)}
               >
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
                   {list.name}
@@ -76,7 +76,7 @@ const Dashboard: React.FC = () => {
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
-                      handleDeleteList(list.id);
+                      handleDeleteList(list._id);
                     }}
                     className="text-red-500 hover:text-red-700 text-sm"
                   >
