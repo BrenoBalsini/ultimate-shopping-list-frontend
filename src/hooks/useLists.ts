@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { listService } from '../services/listService';
-import { List } from '../types/list';
+import type { List } from '../types/list';
 
 export const useLists = () => {
   const [lists, setLists] = useState<List[]>([]);
